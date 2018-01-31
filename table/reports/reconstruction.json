@@ -1,0 +1,69 @@
+{
+    "wall_times": {
+        "compute_reconstructions": 1.1981501579284668, 
+        "compute_image_pairs": 3.5653579235076904, 
+        "load_tracks_graph": 0.018151044845581055
+    }, 
+    "reconstructions": [
+        {
+            "bootstrap": {
+                "memory_usage": 89563136, 
+                "image_pair": [
+                    "03.jpg", 
+                    "04.jpg"
+                ], 
+                "decision": "Success", 
+                "triangulated_points": 239, 
+                "two_view_reconstruction": {
+                    "5_point_inliers": 239, 
+                    "plane_based_inliers": 239, 
+                    "method": "plane_based"
+                }, 
+                "common_tracks": 239
+            }, 
+            "grow": {
+                "steps": []
+            }
+        }, 
+        {
+            "bootstrap": {
+                "memory_usage": 90415104, 
+                "image_pair": [
+                    "02.jpg", 
+                    "05.jpg"
+                ], 
+                "decision": "Success", 
+                "triangulated_points": 125, 
+                "two_view_reconstruction": {
+                    "5_point_inliers": 125, 
+                    "plane_based_inliers": 114, 
+                    "method": "5_point"
+                }, 
+                "common_tracks": 125
+            }, 
+            "grow": {
+                "steps": [
+                    {
+                        "resection": {
+                            "num_inliers": 14, 
+                            "num_common_points": 15
+                        }, 
+                        "image": "01.jpg", 
+                        "memory_usage": 90415104, 
+                        "bundle": {
+                            "wall_times": {
+                                "teardown": 0.0010399818420410156, 
+                                "setup": 0.011277914047241211, 
+                                "run": 0.02878403663635254
+                            }, 
+                            "brief_report": "Ceres Solver Report: Iterations: 4, Initial cost: 6.500430e+00, Final cost: 5.044493e+00, Termination: CONVERGENCE"
+                        }, 
+                        "triangulated_points": 60
+                    }
+                ]
+            }
+        }
+    ], 
+    "not_reconstructed_images": [], 
+    "num_candidate_image_pairs": 3
+}

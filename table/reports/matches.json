@@ -1,0 +1,49 @@
+{
+    "num_pairs_time": 0, 
+    "wall_time": 84.378103017807, 
+    "pairs": [
+        [
+            "02.jpg", 
+            "03.jpg"
+        ], 
+        [
+            "02.jpg", 
+            "04.jpg"
+        ], 
+        [
+            "02.jpg", 
+            "05.jpg"
+        ], 
+        [
+            "01.jpg", 
+            "02.jpg"
+        ], 
+        [
+            "01.jpg", 
+            "03.jpg"
+        ], 
+        [
+            "01.jpg", 
+            "04.jpg"
+        ], 
+        [
+            "01.jpg", 
+            "05.jpg"
+        ], 
+        [
+            "04.jpg", 
+            "05.jpg"
+        ], 
+        [
+            "03.jpg", 
+            "04.jpg"
+        ], 
+        [
+            "03.jpg", 
+            "05.jpg"
+        ]
+    ], 
+    "num_pairs": 10, 
+    "num_pairs_distance": 0, 
+    "num_pairs_order": 0
+}
