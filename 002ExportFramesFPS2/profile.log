@@ -1,0 +1,6 @@
+focal_from_exif: 0.730464935303
+detect_features: 68.1945528984
+match_features: 2234.68321419
+create_tracks: 18.567054987
+reconstruct: 307.34405303
+mesh: 13.8895039558
